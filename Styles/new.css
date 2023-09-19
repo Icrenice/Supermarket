@@ -1,0 +1,158 @@
+body {
+	overflow-x: hidden; /*--right gutter fix--*/
+	font-family : sans-serif;
+	color : black;
+	background-image:url();
+	height:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+ nav{
+   background-color: #FE152B;
+ }
+.navbar{
+    text-transform:uppercase;
+    background-color: #FE152B;
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: #FE152B;
+    color: white;
+    position: sticky;
+    /* margin: ; */
+    padding-bottom: 15px;
+}
+/* main pagina */
+
+main img{
+    width: 100%;
+}
+.welkom{
+  padding-top: 2em;
+}
+.item2{
+    padding-top: 5px;
+    text-transform:uppercase;
+    background-color: #FE152B;
+    margin-top: 4.8em;
+    color: white;
+    height: 2.5em;
+}
+.item{
+    display: inline;
+    margin: 0.5em;
+    text-align: center;
+    color: white;
+}
+.item3:hover{
+  border: solid white 3px ;
+  padding: 5px;
+  padding-right: 1em;
+  text-decoration: none ;
+    border-radius: 5px;
+    color: white;
+}
+.item3{
+  margin: 0px;
+  padding: 5px;
+  padding-right: 1em;
+    vertical-align: middle;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+}
+.btn {
+	border-width : medium ;
+	border-radius : 0 ;
+	text-transform : uppercase ;
+	padding : .5rem 1.1 rem ;
+	font-size : .9rem ;
+	
+}
+.card {
+	
+    text-align: center;
+    border: solid 2px;
+    
+}
+/* advertentie pagina*/
+.box{
+    border: 1px #FE152B solid;
+    border-radius: 4%;
+    padding: 1px;
+    padding: 2px;
+  }
+
+/* winkelwagen*/
+
+table{
+    background-color: #FE152B;
+    border: 0.2em #FCEE08 double; 
+}
+table td{
+    border: 0.2em #FCEE08 double;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+/* Form voor contact*/
+fieldset{
+  border: solid 2px white;
+  width: 70%;
+  margin: auto;
+  border-radius: 2%;
+  background:red ;
+}
+
+form{
+  width:100%;
+  margin:0;
+  text-align:center;
+
+}
+
+legend{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+}
+input, select, textarea{
+  border: solid 1px rgb(0,0,0);
+  margin: 5px;
+  padding: 5px 30px 5px 50px;
+  width: 50%;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+select{
+  width: 35%;
+}
+
+input[type=date] {
+  width: 25%;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  width: 4%;
+}
+
+input[type=submit] {
+  background-color: #FE152B;
+  width: 43%;
+  color: black;
+  border: #FCEE08 2px solid;
+}
+
+#contact{
+  margin-left:auto;
+  margin-right: auto;
+  width:50%;
+  text-align: justify;
+  line-height: 1.6em;
+}
